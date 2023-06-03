@@ -5,7 +5,7 @@ const homeScreen = () => {
 
     return (
         <div className = "wrapper">
-            <div className="buttonContainer">
+            <div className="flashcardContainer">
                 <button>Create a Flashcard Set</button>
             </div>
         </div>
