@@ -1,6 +1,6 @@
 
 
-const homeScreen = () => {
+const HomeScreen = () => {
 
 
     return (
@@ -8,8 +8,14 @@ const homeScreen = () => {
             <div className="flashcardContainer">
                 <button>Create a Flashcard Set</button>
             </div>
+            <div className="flashCardListDisplay">
+                <ul>
+                    <li>List 1</li>
+                    <li>List 2</li>
+                </ul>
+            </div>
         </div>
     );
 }
 
-export default homeScreen;
+export default HomeScreen;
